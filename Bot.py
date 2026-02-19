@@ -43,7 +43,7 @@ logging.basicConfig(
 )
 
 # ← Вставь свой реальный токен
-TOKEN = "8377899563:AAF1gua_s3jvxPA1-lRueR2fCIIPscml8gE"
+TOKEN = ""
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
