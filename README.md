@@ -18,9 +18,9 @@ Made for people who want to smile and eat delicious food at any moment of the da
 ## Technologies
 
 - **Language**: Python 3.10+
-- **Telegram library**: aiogram (async) / python-telegram-bot
-- **Joke parsing**: requests + BeautifulSoup (module ScrapingAnekdots.py)
-- **Recipe source**: (please specify where recipes come from — if parsed or using an API)
+- **Telegram library**: python-telegram-bot
+- **Joke parsing**: requests + json and jokes from website anekdotov.net (module ScrapingAnekdots.py)
+- **Recipe source**: requests + json and parsing gastronom.ru (module ScrapingDishes.py in near future)
 
 ## Installation & Running
 
